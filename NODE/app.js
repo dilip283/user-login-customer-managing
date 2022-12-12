@@ -89,7 +89,7 @@ app.listen(5000, () => {
   console.log("Server Started");
 });
 
-
+// reset password api
 app.get("/reset-password/:id/:token", async (req, res) => {
   const { id, token } = req.params;
   console.log(req.params);
