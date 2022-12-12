@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
 
 export default class Login extends Component {
     constructor(props) {
@@ -69,7 +70,7 @@ export default class Login extends Component {
                     </div>
                     <div className="d-flex justify-content-end">
                     <p className="forgot-password text-right">
-                        If you haven't account <a href="/sign-up">Sign Up</a>
+                        If you haven't account <NavLink  to="/sign-up">Sign Up</NavLink>
                     </p>
                     </div>
                 </form>

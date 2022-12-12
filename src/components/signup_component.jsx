@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
 
 export default class SignUp extends Component {
     constructor(props) {
@@ -96,7 +97,7 @@ export default class SignUp extends Component {
                     </div>
                     <div className="d-flex justify-content-end">
                     <p className="forgot-password text-right">
-                        Already registered <a href="/sign-in">sign in?</a>
+                        Already registered <NavLink to="/sign-in">sign in?</NavLink>
                     </p>
                     </div>
                 </form>
